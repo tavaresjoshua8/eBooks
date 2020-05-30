@@ -1,0 +1,1 @@
+<a class="btn btn-sm btn-warning" href="{{ route('categories.edit', $id) }}"> <i class="fa fa-pencil-alt"></i> @lang('admin.edit')</a>

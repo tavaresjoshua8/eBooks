@@ -1,0 +1,61 @@
+/*!
+    Custom CSS
+*/
+body{
+    font-size: 1rem;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+
+    &:hover{
+        color: #4fa4ff;
+    }
+}
+
+/*.btn-primary{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+
+    &:hover{
+        color: #fff;
+        background-color: #0069d9;
+        border-color: #0062cc;
+    }
+} */
+
+.navbar-brand{
+    font-size: 1.25rem;
+}
+
+.input-group{
+    max-width: 800px;
+}
+
+.dropdown-item{
+    font-weight:400;
+    color:#fff;
+
+    &:hover, &:focus{
+        color:#fff;
+        text-decoration:none;
+        background-color:#464545
+    }
+
+    &.active, &:active{
+        color:#fff;
+        text-decoration:none;
+        background-color:#007bff
+    }
+}
+
+.navbar-dark{
+    .navbar-nav{
+        .nav-link{
+            color: hsla(0,0%,100%,0.6);
+        }
+    }
+}

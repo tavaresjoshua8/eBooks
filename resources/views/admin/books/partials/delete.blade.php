@@ -1,0 +1,1 @@
+{!! Form::open(['route' => ['books.destroy', $id], 'method' => 'DELETE']) !!} <button class="btn btn-sm btn-danger"> <i class="fa fa-trash"></i> @lang('admin.delete')</button>{!! Form::close() !!}

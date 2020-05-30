@@ -1,0 +1,27 @@
+{
+  "short_name": "Biblioteca",
+  "name": "Biblioteca Virtual",
+  "background_color": "#203A70",
+  "theme_color": "#203A70",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "favicon48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+        "src": "favicon192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+    },
+    {
+        "src": "favicon512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+    }
+  ],
+  "start_url": "/home?utm_source=homescreen",
+  "display": "standalone",
+  "prefer_related_applications": false
+}
